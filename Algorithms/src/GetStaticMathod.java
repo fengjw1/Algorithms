@@ -23,6 +23,6 @@ public class GetStaticMathod {
         return x;
     }
 
-    // isPrime   ....
+    // isPrime   .......
 
 }
