@@ -23,4 +23,6 @@ public class GetStaticMathod {
         return x;
     }
 
+    // 
+
 }

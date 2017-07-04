@@ -76,5 +76,7 @@ public class GetArray {
             }
         }
         System.out.println();
+
+
     }
 }
