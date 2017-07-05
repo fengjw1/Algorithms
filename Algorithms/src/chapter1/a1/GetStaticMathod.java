@@ -1,3 +1,5 @@
+package chapter1.a1;
+
 /**
  * Created by fengjw on 2017/7/4.
  */
@@ -23,7 +25,7 @@ public class GetStaticMathod {
         return x;
     }
 
-    // isPrime
+    // isPrime 质数
     public static boolean isPrime(int x){
         if(x < 2) return false;
         for(int i = 2; i * i < x; i ++){
@@ -39,7 +41,7 @@ public class GetStaticMathod {
         double err = 1e-15; // 10的负15次方
         double t = x;
         while(Math.abs(t - x/t) > err * t)
-            t = (x/t + t) / 2.0;
+            t = (x/t + t) / 2.0; //牛顿迭代法基本公式
         return t;
     }
 
@@ -49,12 +51,19 @@ public class GetStaticMathod {
     }
 
 
+    //harmonic series
+    public static double harmonicSeries(int x){
+        for(int i = 0; i <= x; i ++ ){
+            x += 1/i;
+        }
+        return x;
+    }
+
     public static void main(String [] args){
         //System.out.println(1e-15);
         //System.out.println(Double.NaN);
         double x = sqrt(3.0);
         System.out.println(x);
-
         System.out.println(hypotenuse(3,4));
 
 

@@ -1,3 +1,5 @@
+package chapter1.a1;
+
 /**
  * Created by fengjw on 2017/7/4.
  */
