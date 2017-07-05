@@ -23,6 +23,41 @@ public class GetStaticMathod {
         return x;
     }
 
-    // isPrime   .......
+    // isPrime
+    public static boolean isPrime(int x){
+        if(x < 2) return false;
+        for(int i = 2; i * i < x; i ++){
+            if(x % i == 0) return false;
+        }
+        return true;
+    }
+
+    //count square root
+    //牛顿迭代法
+    public static double sqrt(double x){
+        if(x < 0) return Double.NaN;
+        double err = 1e-15; // 10的负15次方
+        double t = x;
+        while(Math.abs(t - x/t) > err * t)
+            t = (x/t + t) / 2.0;
+        return t;
+    }
+
+    //right triangle hypotenuse
+    public static double hypotenuse(double a, double b){
+        return sqrt(a * a + b * b);
+    }
+
+
+    public static void main(String [] args){
+        //System.out.println(1e-15);
+        //System.out.println(Double.NaN);
+        double x = sqrt(3.0);
+        System.out.println(x);
+
+        System.out.println(hypotenuse(3,4));
+
+
+    }
 
 }
