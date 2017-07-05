@@ -1,36 +1,23 @@
 package chapter2;
 
-import java.util.Scanner;
+import chapter1.a1.Average;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 
 /**
  * Created by fengjw on 2017/7/4.
  */
 public class test {
-    public static void main(String [] args){
-
-        Scanner s = new Scanner(System.in);
-
-        int N = s.nextInt();
-
-        // Define an array of integers of size N.
-        int[] numArray = new int[N];
-
-
-        int sum = 0;
-        for(int i=0; i<N; i++){
-            numArray[i] = s.nextInt(); // Get the input
+    public static void main(String[] args) {
+        double sum = 0.0;
+        int count =0;
+        System.out.println("1");
+        //System.out.println(StdIn.readDouble());
+        while (!StdIn.isEmpty()){
+            sum += StdIn.readDouble();
+            count ++;
         }
-
-        // Write the logic to add these numbers here:
-        for(int i = 0; i < numArray.length; i ++){
-            sum += (numArray[i] * numArray[i]);
-        }
-
-
-
-        // Print the sum
-        System.out.print(sum);
-        s.close();
-        }
-
+        double average = sum / count;
+        StdOut.printf("Average is %.5f\n", average);
+    }
 }
