@@ -16,18 +16,35 @@
       <file leaf-file-name="BinarySearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter1/a1/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="1320">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="problemsets.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="problemsets.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter1/a1/problemsets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="254">
+              <caret line="54" column="65" lean-forward="false" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Result1#0;class#problemsets#0" expanded="false" />
+                <element signature="method#Result2#0;class#problemsets#0" expanded="false" />
+                <element signature="method#Result3#0;class#problemsets#0" expanded="false" />
+                <element signature="method#test#0;class#problemsets#0" expanded="false" />
+                <element signature="e#791#834#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Example113.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter1/a1/Example113.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-256">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,6 +80,7 @@
         <option value="$PROJECT_DIR$/src/chapter1/a1/Average.java" />
         <option value="$PROJECT_DIR$/src/chapter1/a1/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/chapter1/a1/problemsets.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/a1/Example113.java" />
       </list>
     </option>
   </component>
@@ -93,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -165,9 +184,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.problemsets">
+  <component name="RunManager" selected="Application.Example113">
     <configuration default="false" name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -200,26 +218,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="chapter2.test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithms" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="RandomSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="chapter1.a1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="chapter1.a1.RandomSeq" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -280,6 +278,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="chapter1.a1.problemsets" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithms" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Example113" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="chapter1.a1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="chapter1.a1.Example113" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -681,18 +699,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.test" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RandomSeq" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Average" />
-      <item index="3" class="java.lang.String" itemvalue="Application.BinarySearch" />
-      <item index="4" class="java.lang.String" itemvalue="Application.problemsets" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Average" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BinarySearch" />
+      <item index="3" class="java.lang.String" itemvalue="Application.problemsets" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Example113" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.problemsets" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BinarySearch" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Average" />
-        <item index="3" class="java.lang.String" itemvalue="Application.test" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RandomSeq" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Example113" />
+        <item index="1" class="java.lang.String" itemvalue="Application.problemsets" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BinarySearch" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Average" />
+        <item index="4" class="java.lang.String" itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -710,11 +728,13 @@
       <workItem from="1499214338170" duration="507000" />
       <workItem from="1499222932554" duration="10661000" />
       <workItem from="1499253614359" duration="7056000" />
+      <workItem from="1499327253313" duration="608000" />
+      <workItem from="1499335184104" duration="4052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20664000" />
+    <option name="totallyTimeSpent" value="25324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
@@ -759,7 +779,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -768,6 +788,52 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/chapter1/a1/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/a1/problemsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Result1#0;class#problemsets#0" expanded="false" />
+            <element signature="method#Result2#0;class#problemsets#0" expanded="false" />
+            <element signature="method#Result3#0;class#problemsets#0" expanded="false" />
+            <element signature="method#test#0;class#problemsets#0" expanded="false" />
+            <element signature="e#791#834#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/a1/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/a1/problemsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Result1#0;class#problemsets#0" expanded="false" />
+            <element signature="method#Result2#0;class#problemsets#0" expanded="false" />
+            <element signature="method#Result3#0;class#problemsets#0" expanded="false" />
+            <element signature="method#test#0;class#problemsets#0" expanded="false" />
+            <element signature="e#791#834#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/a1/GetArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -788,7 +854,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -838,7 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="68" column="31" lean-forward="false" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -911,16 +978,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/a1/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="1320">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/javaJar/algs4.jar!/edu/princeton/cs/algs4/StdIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="213" column="27" lean-forward="false" selection-start-line="213" selection-start-column="27" selection-end-line="213" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/a1/problemsets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="254">
+          <caret line="54" column="65" lean-forward="false" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Result1#0;class#problemsets#0" expanded="false" />
+            <element signature="method#Result2#0;class#problemsets#0" expanded="false" />
+            <element signature="method#Result3#0;class#problemsets#0" expanded="false" />
+            <element signature="method#test#0;class#problemsets#0" expanded="false" />
+            <element signature="e#791#834#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/a1/Example113.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
