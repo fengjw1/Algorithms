@@ -6,7 +6,7 @@ import edu.princeton.cs.algs4.StdIn;
 /**
  * Created by fengjw on 2017/7/6.
  */
-public class Example113 {
+public class Example1103 {
 
     public static void main(String [] args){
         int a = StdIn.readInt();
