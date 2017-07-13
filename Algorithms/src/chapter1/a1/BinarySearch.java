@@ -1,6 +1,7 @@
 package chapter1.a1;
 
 import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.StdOut;
 
 /**
  * Created by fengjw on 2017/7/5.
@@ -9,6 +10,9 @@ import edu.princeton.cs.algs4.In;
 
 
 public class BinarySearch {
+
+    public static final int N = 1000;
+
     public static int rank(int key, int [] a){//两个参数，一个是要查找的关键字key，一个是需要查找的数组a[]
         //int mid = 0;
         int low = 0;
@@ -38,9 +42,13 @@ public class BinarySearch {
     }
 
     public static void main(String [] args){
-        int [] a = {1,2,3,4,6,7,8}; //数组是有序的
-        int key = 6;
-        System.out.println(rank(key, a));
+        int[] a = new int[N];
+        int key = 999;
+        for(int i = 0 ; i < N; i ++) {
+            a[i] = i;
+        }
+        //System.out.println(rank(key, a));
+        StdOut.println(Example1122.rank(key,a));
     }
 
 

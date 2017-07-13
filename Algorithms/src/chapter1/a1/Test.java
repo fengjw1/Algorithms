@@ -1,5 +1,7 @@
 package chapter1.a1;
 
+import edu.princeton.cs.algs4.StdOut;
+
 /**
  * Created by fengjw on 2017/7/6.
  */
@@ -48,9 +50,9 @@ public class Test {
         //1.1.16
         //System.out.println(Example1116.exR1(6));
         //1.1.18
-        int result1 = Example1118.mystery(2,25);
-        int result2 = Example1118.mystery(3,11);
-        System.out.println(result1);
-        System.out.println(result2);
+//        int result1 = Example1118.mystery(2,25);
+//        int result2 = Example1118.mystery(3,11);
+//        System.out.println(result1);
+//        System.out.println(result2);
     }
 }
