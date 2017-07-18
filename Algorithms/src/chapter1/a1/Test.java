@@ -1,5 +1,6 @@
 package chapter1.a1;
 
+import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
 /**
@@ -54,5 +55,11 @@ public class Test {
 //        int result2 = Example1118.mystery(3,11);
 //        System.out.println(result1);
 //        System.out.println(result2);
+        //1126
+        Object a = StdIn.readDouble();
+        Object b = StdIn.readDouble();
+        Object c = StdIn.readDouble();
+        System.out.println(Example1126.sort(a,b,c));
+
     }
 }
