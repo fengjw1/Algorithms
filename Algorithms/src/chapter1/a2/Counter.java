@@ -4,12 +4,19 @@ package chapter1.a2;
  * Created by fengjw on 2017/7/18.
  */
 public class Counter {
-    Counter(String id){};
-    public static void increment(){}
-    public static int tally(){
-        return 0;
+    private final String name;
+    private int count;
+
+    public Counter(String id){
+        name = id;
+    }
+    public void increment(){
+        count++;
+    }
+    public int tally(){
+        return count;
     }
     public  String toString(){
-        return "";
+        return count + " " + name;
     }
 }
