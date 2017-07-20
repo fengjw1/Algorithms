@@ -1,6 +1,5 @@
 package chapter1.a1;
 
-import edu.princeton.cs.algs4.StdOut;
 
 /**
  * Created by fengjw on 2017/7/19.
