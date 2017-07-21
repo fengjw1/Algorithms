@@ -33,14 +33,31 @@ public class Matrix {
     }
 
     public static double[][] transpose(double[][] a){ //转置矩阵
-
+        double[][] result = new double[a[0].length][a.length];
+        for(int i = 0; i < a.length; i ++){
+            for (int j = 0; j < a[0].length; j ++){
+                result[i][j] = a[j][i];
+            }
+        }
+        return result;
     }
 
-    public static double[] mult(double[] y,double[][] x){ //矩阵和向量之积
-
+    public static double[] mult(double[] y,double[][] x){ //向量和矩阵之积
+        double[] result = new double[x.length];
+        if(x[0].length == y.length){
+            for (int i = 0; i < x.length; i ++){
+                for (int j = 0; j < y.length; j ++){
+                    result[i] += x[i][j] * y[j];
+                }
+            }
+        }else {
+            StdOut.println("Error!");
+            return null;
+        }
+        return result;
     }
 
-    public static double[] mult(double[] y, double[][] a){ //向量和矩阵之积
-
-    }
+//    public static double[] mult(double[][] a, double[] y){ //
+//        double[][] result = new double[a.length][a[0].length]
+//    }
 }
