@@ -1,10 +1,7 @@
 package chapter1.a3;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.Iterator;
-import java.util.Spliterator;
-import java.util.function.Consumer;
 
 public class ResizingArrayStack<Item> implements Iterable<Item> {
 
