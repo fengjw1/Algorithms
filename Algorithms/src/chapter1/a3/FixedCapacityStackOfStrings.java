@@ -28,6 +28,9 @@ public class FixedCapacityStackOfStrings {
         return a;
     }
 
+    public boolean isFull(){
+        return N == a.length;
+    }
 
 
 
