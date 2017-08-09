@@ -1,6 +1,7 @@
 package chapter1.a3;
 
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 
 public class Stack<Item> implements Iterator<Item> {
 
@@ -37,6 +38,16 @@ public class Stack<Item> implements Iterator<Item> {
         N --;
         return item;
     }
+
+    public Item peek(){
+
+        if (isEmpty()){
+            throw new NoSuchElementException("Stack underflow");
+        }
+
+        return first.item;
+    }
+
 
     @Override
     public boolean hasNext() {
