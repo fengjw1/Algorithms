@@ -9,8 +9,8 @@ import edu.princeton.cs.algs4.StdOut;
  */
 public class Evaluate {
     public static void main(String [] args){
-        Stack<String> ops = new Stack<>();
-        Stack<Double> vals = new Stack<>();
+        Stack<String> ops = new Stack<>(); //操作符存放
+        Stack<Double> vals = new Stack<>(); //操作数存放
 
         //这里要注意输入字符的方式，每次只能输入一个字符，然后回车键下一个
         while (!StdIn.isEmpty()) {
