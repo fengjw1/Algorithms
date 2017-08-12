@@ -5,45 +5,67 @@ import org.jetbrains.annotations.NotNull;
 import java.util.Iterator;
 
 public class Queue<Item> implements Iterable<Item> {
+
+    private Node first;
+    private Node last;
+    private int n;
+    class Node{
+        Item item;
+        Node next;
+    }
+    public boolean isEmpty(){
+        return first == null;
+    }
+
+    public int size(){
+        return n;
+    }
+
+    public void enqueue(Item item){
+        Node oldlast = last;
+        last = new Node();
+        last.item = item;
+        last.next = null;
+        if (isEmpty()){
+            last = first;
+        }else {
+            oldlast.next = last;
+        }
+        n ++;
+    }
+
+    public Item dequeue(){
+        Item item = first.item;
+        first = first.next;
+        if (isEmpty()){
+            last = null;
+        }
+        n --;
+        return item;
+    }
+
+
     @NotNull
     @Override
     public Iterator<Item> iterator() {
         return null;
     }
 
-    private int N = 0;
-    private Node first;
-    private Node last;
-    private class Node{
-        Item item;
-        Node next;
-    }
-    //
-    public boolean isEmpty(){
-        return N == 0; // or first == 0
-    }
+    private class QueueIterator implements Iterator<Item>{
 
-    //
-    public int size(){
-        return N;
-    }
+        private Node current = first;
 
-    public void enqueue(Item item){ // add elements at the end of the table
-        Node oldlast = last;
-        last = new Node();
-        last.item = item;
-        last.next = null;
-        if (isEmpty()) first = last;
-        else oldlast.next = last;
-        N ++;
-    }
+        @Override
+        public boolean hasNext() {
+            return current != null; //要想循环下去，对列不能为空，不为空的话就是first要不等于null.
+        }
 
-    public Item dequeue(){ // delete the element on the header
-        Item item = first.item;
-        first = first.next;
-        if (isEmpty()) first = last;
-        N --;
-        return item;
+        @Override
+        public Item next() { //下一个链表元素
+            Item item = current.item;
+            current = current.next;
+            return item;
+        }
     }
 
 }
