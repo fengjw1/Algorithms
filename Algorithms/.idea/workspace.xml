@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5cbca7e-309f-4ac1-bacf-c98217a2dd0d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter1/a3/DoubleNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter1/a3/Example1326.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter1/a3/Example1327.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter1/a3/Example1328.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter1/a3/Example1329.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter1/a3/Example1330.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algorithms/chapter1/a3/Queue$1.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/chapter1/a3/Queue$Node.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/chapter1/a3/Queue$Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/chapter1/a3/Queue.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/chapter1/a3/Queue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f5cbca7e-309f-4ac1-bacf-c98217a2dd0d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +20,8 @@
       <file leaf-file-name="DoubleNode.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter1/a3/DoubleNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1856">
-              <caret line="139" column="60" lean-forward="false" selection-start-line="139" selection-start-column="60" selection-end-line="139" selection-end-column="60" />
+            <state relative-caret-position="-58">
+              <caret line="82" column="7" lean-forward="true" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
               <folding>
                 <element signature="e#527#528#0" expanded="true" />
                 <element signature="e#562#563#0" expanded="true" />
@@ -1178,8 +1167,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/a3/DoubleNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1856">
-          <caret line="139" column="60" lean-forward="false" selection-start-line="139" selection-start-column="60" selection-end-line="139" selection-end-column="60" />
+        <state relative-caret-position="-58">
+          <caret line="82" column="7" lean-forward="true" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
           <folding>
             <element signature="e#527#528#0" expanded="true" />
             <element signature="e#562#563#0" expanded="true" />
