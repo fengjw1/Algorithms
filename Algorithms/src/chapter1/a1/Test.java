@@ -60,14 +60,14 @@ public class Test {
 //        Object b = StdIn.readDouble();
 //        Object c = StdIn.readDouble();
 //        System.out.println(Example1126.sort(a,b,c));
-//        //1127
+////        //1127
 //        int N = 0;
 //        int k = 0;
 //        double p = 0;
-//        //StdOut.println("result: " + Example1127.binomial(3,1,0.25) + " count: " + Example1127.getCOUNT());
-//        StdOut.println("result: " + Example1127.batterbinnomial(3,1,0.25) + " count: " + Example1127.getCOUNT1());
-        //StdOut.println(Example1127.binomial(N,k,p));
-        //double[] temp = Example1127.getTemp();
+//        StdOut.println("result: " + Example1127.binomial(3,1,0.25) + " count: " + Example1127.getCOUNT());
+        //StdOut.println("result: " + Example1127.batterbinnomial(3,1,0.25) + " count: " + Example1127.getCOUNT1());
+//        StdOut.println(Example1127.binomial(N,k,p));
+//        double[] temp = Example1127.getTemp();
 //        for(int i = 0; i < Example1127.getTemp().length; i ++){
 //            StdOut.println(temp[i]);
 //        }

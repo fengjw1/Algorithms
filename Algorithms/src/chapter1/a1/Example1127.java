@@ -8,7 +8,7 @@ public class Example1127 {
     private static int COUNT = 0;
     private static int COUNT1 = 0;
     private static double[][] Matrix;
-    //private static double[] temp = new double[100000000];
+    private static double[] temp = new double[100000000];
     public static double binomial(int N, int k, double p){
         COUNT ++;
         if(N == 0 && k == 0) return 1.0; //这里出现相等则跳过执行 StdOut.println(COUNT);
